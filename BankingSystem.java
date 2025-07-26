@@ -207,7 +207,7 @@ public class BankingSystem {
         Random r = new Random();
 
         int id =r.nextInt(90000000)+10000000;
-        BankAccount b1 = new BankAccount(id++);
+        BankAccount b1 = new BankAccount(id);
         b1.menu();
 
 
